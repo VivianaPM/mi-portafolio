@@ -1,0 +1,1 @@
+Código fuente organizado por capas: componentes, páginas, hooks, servicios y utilidades. Sigue principios de separación de responsabilidades y escalabilidad.

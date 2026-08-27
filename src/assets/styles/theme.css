@@ -1,0 +1,95 @@
+@import './tokens.css';
+
+:root {
+  /* Fondos */
+  --bg-primary: var(--color-white);
+  --bg-secondary: var(--color-gray-50);
+  --overlay-bg: var(--color-black-alpha-60);
+
+  /* Textos */
+  --text-primary: var(--color-gray-900);
+  --text-secondary: var(--color-red-500);
+  --text-muted: #71717a; /* No estaba en tokens */
+
+  /* Bordes & Tarjetas */
+  --border-color: #e2e8f0; /* No estaba en tokens */
+  --card-bg: var(--color-white);
+  --card-hover-bg: var(--color-gray-50);
+
+  /* Botón Primario */
+  --btn-primary-bg: var(--color-yellow-500);
+  --btn-primary-text: var(--color-gray-900);
+  --btn-primary-hover: var(--color-yellow-600);
+
+  /* Botón Outlined */
+  --btn-outlined-border: var(--color-red-500);
+  --btn-outlined-text: var(--color-red-500);
+  --btn-outlined-bg: transparent;
+  --btn-outlined-hover-bg: var(--color-red-500);
+  --btn-outlined-hover-text: var(--color-white);
+
+  /* Mensajes */
+  --message-bg: var(--color-red-200);
+  --message-text: var(--color-gray-900);
+
+  /* Indicadores (Antes llamados "dots") */
+  --indicator-active-bg: var(--color-green-400);
+  --indicator-active-border: var(--color-green-500);
+  --indicator-inactive-bg: var(--color-gray-900);
+
+  /* Tags */
+  --tag-bg: var(--color-gray-900);
+  --tag-text: var(--color-white);
+
+  /* Navegación */
+  --nav-drawer-bg: var(--color-white);
+  --nav-drawer-text: var(--color-gray-900);
+  --nav-drawer-hover-bg: var(--color-red-200);
+  --nav-drawer-overlay: var(--color-black-alpha-50);
+  --nav-dropdown-bg: var(--color-gray-900);
+  --nav-dropdown-text: var(--color-white);
+  --nav-dropdown-hover-bg: var(--color-yellow-500);
+  --nav-dropdown-shadow: var(--shadow-dropdown);
+  --nav-item-active-text: var(--color-red-500);
+  --nav-item-active-bg: #f9b4abb1;
+  --nav-drawer-hover: var(--color-red-500);
+}
+
+/* ==========================================
+   VARIABLES SEMÁNTICAS (Tema Oscuro)
+   ========================================== */
+.dark {
+  /* Fondos */
+  --bg-primary: var(--color-gray-900);
+  /* --bg-secondary se mantiene igual (no se redeclara) */
+
+  /* Textos */
+  --text-primary: var(--color-gray-100);
+  --text-secondary: var(--color-yellow-500);
+
+  /* Botón Outlined */
+  --btn-outlined-border: var(--color-red-200);
+  --btn-outlined-text: var(--color-red-200);
+  --btn-outlined-hover-bg: var(--color-red-200);
+  --btn-outlined-hover-text: var(--color-gray-900);
+
+  /* Indicadores (Ahora usa gris claro en lugar de oscuro) */
+  --indicator-inactive-bg: var(--color-gray-100);
+
+  /* Tags */
+  --tag-bg: var(--color-red-200);
+  --tag-text: var(--color-gray-900);
+
+  /* Navegación */
+  --nav-drawer-bg: var(--color-gray-900);
+  --nav-drawer-text: var(--color-gray-100);
+  --nav-drawer-hover-bg: var(--color-yellow-500);
+  --nav-dropdown-bg: var(--color-yellow-500);
+  --nav-dropdown-text: var(--color-gray-900);
+  --nav-dropdown-hover-bg: var(--color-gray-100);
+  --nav-item-active-text: var(--color-gray-100);
+  --nav-item-active-bg: #f2af29af;
+  --nav-drawer-hover: var(--color-yellow-500);
+  
+  /* Los valores que no cambian NO se redeclaran (ej: --border-color, --card-bg, etc.) */
+}
