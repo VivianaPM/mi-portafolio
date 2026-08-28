@@ -1,0 +1,1 @@
+Custom hooks reutilizables para lógica de negocio: useScrollToTop, useMediaQuery, useLocalStorage y useIntersectionObserver. Encapsulan lógica compleja y promueven la reutilización.

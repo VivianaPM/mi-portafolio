@@ -1,0 +1,1 @@
+Componentes React organizados por propósito: common (reutilizables), layout (estructura), sections (secciones del sitio) y UI (elementos interactivos). Cada componente incluye su propia carpeta con estilos y tests.
