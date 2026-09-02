@@ -1,13 +1,20 @@
-// src/App.jsx
-import React, { useEffect } from "react";
+import React from "react";
 import { useTranslation } from "react-i18next";
 import ThemeToggle from "./components/common/ThemeToggle/ThemeToggle";
 import LanguageSelector from "./components/common/LanguageSelector/LanguageSelector";
+import {
+  portfolioData,
+  getAllSkills,
+  getFeaturedProjects,
+  getSkillsByCategory,
+} from "./data/index.js";
+
 import "./assets/styles/theme.css";
 import "./App.css";
 
 function App() {
-  const { t, i18n } = useTranslation("common");
+  const { t } = useTranslation("common");
+  const featuredProjects = getFeaturedProjects();
 
   return (
     <div className="app">
@@ -33,6 +40,22 @@ function App() {
             <button className="btn-secondary">
               {t("app.buttons.learnMore", "Conocer más")}
             </button>
+          </div>
+
+          <div style={{ marginTop: "2rem" }}>
+            <h3>Prueba de datos</h3>
+            <p>Projects: {portfolioData.projects.length}</p>
+            <p>Skills: {getAllSkills().length}</p>
+            <p>Featured: {featuredProjects.length}</p>
+            <p>Frontend skills: {getSkillsByCategory("frontend").length}</p>
+
+            <ul>
+              {featuredProjects.slice(0, 2).map((project) => (
+                <li key={project.id}>
+                  <strong>{project.title}</strong> - {project.description}
+                </li>
+              ))}
+            </ul>
           </div>
         </section>
       </main>

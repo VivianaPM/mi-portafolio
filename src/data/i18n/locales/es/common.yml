@@ -1,0 +1,14 @@
+app:
+  title: "Mi Portafolio"
+  welcome: "Bienvenido a mi portafolio personal"
+  description: "Soy un desarrollador apasionado por crear experiencias digitales increíbles"
+  buttons:
+    start: "Comenzar"
+    learnMore: "Conocer más"
+  footer:
+    copyright: "© 2024 Mi Portafolio. Todos los derechos reservados"
+
+language:
+  select: "Cambiar idioma"
+  spanish: "Español"
+  english: "Inglés"

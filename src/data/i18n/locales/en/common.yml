@@ -1,0 +1,14 @@
+app:
+  title: "My Portfolio"
+  welcome: "Welcome to my personal portfolio"
+  description: "I'm a developer passionate about creating amazing digital experiences"
+  buttons:
+    start: "Start"
+    learnMore: "Learn More"
+  footer:
+    copyright: "© 2024 My Portfolio. All rights reserved"
+
+language:
+  select: "Change language"
+  spanish: "Spanish"
+  english: "English"
