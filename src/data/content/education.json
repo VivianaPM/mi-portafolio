@@ -1,0 +1,75 @@
+{
+  "education": [
+    {
+      "id": "edu-001",
+      "institution": "Universidad Nacional de Colombia",
+      "logo": "/images/institutions/unal.svg",
+      "degree": "Ingeniería de Sistemas",
+      "field": "Computer Science",
+      "startDate": "2017-02-01",
+      "endDate": "2022-12-15",
+      "current": false,
+      "gpa": "4.8/5.0",
+      "description": "Formación integral en fundamentos de computación, algoritmos, estructuras de datos y arquitectura de software",
+      "achievements": [
+        "Tesis destacada sobre sistemas de recomendación basados en deep learning",
+        "Miembro del grupo de investigación en IA",
+        "Monitor de programación avanzada"
+      ],
+      "relevantCourses": [
+        "Inteligencia Artificial",
+        "Machine Learning",
+        "Arquitectura de Software",
+        "Bases de Datos Avanzadas",
+        "Desarrollo de Aplicaciones Móviles"
+      ],
+      "tags": ["computer-science", "algorithms", "ai"]
+    },
+    {
+      "id": "edu-002",
+      "institution": "Coursera - Meta",
+      "logo": "/images/institutions/coursera.svg",
+      "degree": "Specialization",
+      "field": "React Developer",
+      "startDate": "2023-01-15",
+      "endDate": "2023-12-20",
+      "current": false,
+      "gpa": "",
+      "description": "Certificación profesional en desarrollo React avanzado",
+      "achievements": [
+        "Proyecto final: Dashboard de análisis de datos en tiempo real",
+        "Especialización en hooks, context API y testing"
+      ],
+      "relevantCourses": [
+        "React Fundamentals",
+        "React Hooks",
+        "State Management with Redux",
+        "React Testing"
+      ],
+      "tags": ["react", "frontend", "certification"]
+    },
+    {
+      "id": "edu-003",
+      "institution": "MIT Professional Education",
+      "logo": "/images/institutions/mit.svg",
+      "degree": "Professional Certificate",
+      "field": "Machine Learning and AI",
+      "startDate": "2024-03-01",
+      "endDate": "2024-08-30",
+      "current": false,
+      "gpa": "",
+      "description": "Programa intensivo en IA y ML aplicado a problemas empresariales",
+      "achievements": [
+        "Implementación de modelos para predicción de series temporales",
+        "Optimización de redes neuronales para aplicaciones en tiempo real"
+      ],
+      "relevantCourses": [
+        "Supervised Learning",
+        "Deep Learning",
+        "MLOps",
+        "AI Ethics"
+      ],
+      "tags": ["ai", "ml", "professional-development"]
+    }
+  ]
+}

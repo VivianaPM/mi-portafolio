@@ -1,0 +1,143 @@
+{
+  "projects": [
+    {
+      "id": "ai-analytics-dashboard",
+      "title": "AI Analytics Dashboard",
+      "description": "Dashboard interactivo con predicciones de IA para retail",
+      "longDescription": "Sistema que utiliza machine learning para predecir tendencias de ventas, optimizar inventarios y recomendar estrategias de pricing. Integra modelos LSTM y XGBoost con visualizaciones en tiempo real.",
+      "image": "/images/projects/ai-analytics.webp",
+      "images": [
+        "/images/projects/ai-analytics-1.webp",
+        "/images/projects/ai-analytics-2.webp"
+      ],
+      "technologies": ["react", "python", "tensorflow", "d3", "postgresql"],
+      "category": ["web", "data-science", "ai"],
+      "repository": "https://github.com/tu-usuario/ai-analytics",
+      "demo": "https://ai-analytics-demo.com",
+      "featured": true,
+      "completionDate": "2025-02-15",
+      "challenges": "Manejo de grandes volúmenes de datos en tiempo real y optimización de modelos para inferencia rápida",
+      "achievements": [
+        "Reducción del 30% en inventario no vendido",
+        "Predicción con 94% de precisión",
+        "Procesamiento de 10M+ registros diarios"
+      ],
+      "team": 4,
+      "role": "Full Stack Developer & ML Engineer",
+      "status": "completed",
+      "screenshots": ["/images/projects/ai-analytics-demo.webp"],
+      "testimonials": [
+        "Ha transformado nuestra estrategia comercial. Resultados excepcionales."
+      ]
+    },
+    {
+      "id": "blockchain-supply-chain",
+      "title": "Blockchain Supply Chain Tracker",
+      "description": "Trazabilidad de cadenas de suministro con blockchain",
+      "longDescription": "Plataforma descentralizada que registra cada paso en la cadena de suministro, garantizando transparencia y autenticidad. Implementa smart contracts para verificación automática.",
+      "image": "/images/projects/supply-chain.webp",
+      "images": [
+        "/images/projects/supply-chain-1.webp",
+        "/images/projects/supply-chain-2.webp"
+      ],
+      "technologies": ["react", "solidity", "nodejs", "docker", "graphql"],
+      "category": ["web", "blockchain", "enterprise"],
+      "repository": "https://github.com/tu-usuario/blockchain-supply",
+      "demo": "https://supply-chain-demo.com",
+      "featured": false,
+      "completionDate": "2024-11-20",
+      "challenges": "Integración con sistemas legacy y gestión de escalabilidad en blockchain",
+      "achievements": [
+        "Reducción del 40% en disputas de calidad",
+        "Verificación instantánea de procedencia",
+        "1000+ transacciones por segundo"
+      ],
+      "team": 3,
+      "role": "Smart Contract Developer",
+      "status": "maintained",
+      "screenshots": ["/images/projects/supply-chain-demo.webp"],
+      "testimonials": [
+        "Trazabilidad completa desde el origen hasta el consumidor."
+      ]
+    },
+    {
+      "id": "mobile-health-app",
+      "title": "Mobile Health Companion",
+      "description": "App de salud personal con telemedicina",
+      "longDescription": "Aplicación nativa para seguimiento de signos vitales, recordatorios de medicación y consultas con profesionales. Incluye integración con wearables y análisis de patrones de salud.",
+      "image": "/images/projects/health-app.webp",
+      "images": [
+        "/images/projects/health-app-1.webp",
+        "/images/projects/health-app-2.webp",
+        "/images/projects/health-app-3.webp"
+      ],
+      "technologies": ["react-native", "expo", "aws", "mongodb", "nodejs"],
+      "category": ["mobile", "healthtech", "iot"],
+      "repository": "https://github.com/tu-usuario/health-app",
+      "demo": "https://health-demo.com",
+      "featured": true,
+      "completionDate": "2025-01-10",
+      "challenges": "Privacidad y cumplimiento HIPAA, datos offline y sincronización en tiempo real",
+      "achievements": [
+        "Integración con 5 tipos de wearables",
+        "Alertas tempranas de riesgos cardiovasculares",
+        "Adopción por 50,000+ usuarios"
+      ],
+      "team": 5,
+      "role": "Mobile Lead & Backend Architect",
+      "status": "completed",
+      "screenshots": ["/images/projects/health-app-demo.webp"],
+      "testimonials": ["La mejor app de salud que he usado."]
+    },
+    {
+      "id": "ecommerce-platform",
+      "title": "E-Commerce Platform",
+      "description": "Plataforma de comercio electrónico con IA para recomendaciones",
+      "longDescription": "Sistema completo de e-commerce con motor de recomendaciones basado en IA, gestión de inventario en tiempo real y análisis de comportamiento de usuarios.",
+      "image": "/images/projects/ecommerce.webp",
+      "images": [],
+      "technologies": ["react", "nodejs", "mongodb", "redis", "elasticsearch"],
+      "category": ["web", "ecommerce"],
+      "repository": "https://github.com/tu-usuario/ecommerce-platform",
+      "demo": "https://ecommerce-demo.com",
+      "featured": false,
+      "completionDate": "2024-08-20",
+      "challenges": "Escalabilidad para picos de tráfico en temporadas altas",
+      "achievements": [
+        "Manejo de 50,000+ usuarios concurrentes",
+        "Tiempo de respuesta < 200ms",
+        "Aumento del 25% en conversiones"
+      ],
+      "team": 6,
+      "role": "Lead Backend Developer",
+      "status": "maintained",
+      "screenshots": [],
+      "testimonials": []
+    },
+    {
+      "id": "ai-chatbot",
+      "title": "AI Customer Service Chatbot",
+      "description": "Chatbot inteligente para atención al cliente",
+      "longDescription": "Chatbot basado en NLP que entiende lenguaje natural y resuelve consultas de clientes, reduciendo tiempos de espera y mejorando la experiencia del usuario.",
+      "image": "/images/projects/chatbot.webp",
+      "images": [],
+      "technologies": ["python", "pytorch", "react", "nodejs", "mongodb"],
+      "category": ["ai", "web"],
+      "repository": "https://github.com/tu-usuario/ai-chatbot",
+      "demo": "https://chatbot-demo.com",
+      "featured": false,
+      "completionDate": "2025-03-01",
+      "challenges": "Entrenamiento del modelo con datos limitados y manejo de múltiples idiomas",
+      "achievements": [
+        "Resolución del 85% de consultas sin intervención humana",
+        "Reducción del 60% en tiempo de respuesta",
+        "Soporte en 3 idiomas"
+      ],
+      "team": 3,
+      "role": "ML Engineer & Backend Developer",
+      "status": "in-progress",
+      "screenshots": [],
+      "testimonials": []
+    }
+  ]
+}

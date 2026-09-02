@@ -1,0 +1,64 @@
+{
+  "experience": [
+    {
+      "id": "exp-001",
+      "company": "TechInnovation Corp",
+      "companyLogo": "/images/companies/techinnovation.svg",
+      "position": "Senior Full Stack Developer",
+      "startDate": "2023-03-01",
+      "endDate": "2025-02-28",
+      "current": false,
+      "location": "Bogotá, Colombia (Remote)",
+      "description": "Lideré el desarrollo de sistemas de IA y soluciones blockchain para clientes enterprise. Responsable de la arquitectura y entrega de proyectos críticos.",
+      "achievements": [
+        "Desarrollé sistema de análisis predictivo que redujo pérdidas en inventario en un 30%",
+        "Implementé arquitectura microservicios manejando 10M+ transacciones/día",
+        "Dirigí equipo de 5 desarrolladores con metodologías ágiles"
+      ],
+      "technologies": ["react", "nodejs", "python", "docker", "postgresql"],
+      "projects": ["ai-analytics-dashboard", "blockchain-supply-chain"],
+      "tags": ["leadership", "microservices", "ai", "blockchain"],
+      "highlights": ["Arquitectura de sistemas", "Liderazgo técnico", "Optimización de rendimiento"]
+    },
+    {
+      "id": "exp-002",
+      "company": "HealthTech Solutions",
+      "companyLogo": "/images/companies/healthtech.svg",
+      "position": "Mobile Development Lead",
+      "startDate": "2024-06-01",
+      "endDate": null,
+      "current": true,
+      "location": "Medellín, Colombia",
+      "description": "Responsable de la arquitectura y desarrollo de aplicaciones móviles para el sector salud. Establecimiento de estándares de calidad y seguridad.",
+      "achievements": [
+        "Diseñé app de telemedicina con 50,000+ usuarios activos",
+        "Implementé integración con dispositivos wearables usando WebSocket",
+        "Establecí estándares de seguridad HIPAA"
+      ],
+      "technologies": ["react-native", "aws", "mongodb", "nodejs"],
+      "projects": ["mobile-health-app"],
+      "tags": ["mobile", "leadership", "healthtech"],
+      "highlights": ["Arquitectura mobile", "Seguridad de datos", "Integración IoT"]
+    },
+    {
+      "id": "exp-003",
+      "company": "Consulting Firm",
+      "companyLogo": "/images/companies/consulting.svg",
+      "position": "Software Architect",
+      "startDate": "2021-01-01",
+      "endDate": "2023-02-28",
+      "current": false,
+      "location": "Remote",
+      "description": "Consultoría en arquitectura de software para múltiples clientes en diferentes industrias. Diseño de soluciones escalables y optimización de sistemas.",
+      "achievements": [
+        "Diseñé soluciones escalables para 10+ clientes",
+        "Optimicé sistemas legacy reduciendo costos en un 40%",
+        "Capacité a equipos en nuevas tecnologías"
+      ],
+      "technologies": ["typescript", "aws", "docker", "postgresql"],
+      "projects": [],
+      "tags": ["architecture", "consulting", "cloud"],
+      "highlights": ["Arquitectura empresarial", "Migración a la nube", "Optimización de costos"]
+    }
+  ]
+}
