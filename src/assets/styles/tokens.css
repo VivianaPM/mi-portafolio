@@ -1,4 +1,5 @@
 :root {
+  /* Colors */
   --color-yellow-500: #f2af29;
   --color-yellow-600: #d99b1e;
   --color-red-500: #ad343e;
@@ -12,4 +13,6 @@
   --color-black-alpha-50: rgba(0, 0, 0, 0.5);
   --color-black-alpha-60: rgba(0, 0, 0, 0.6);
   --shadow-dropdown: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+
+  /* Espaciado */
 }
