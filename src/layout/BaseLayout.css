@@ -1,0 +1,38 @@
+.base-layout {
+  /* Ocupa todo el ancho de la pantalla */
+  width: 100%;
+  min-height: 100vh;
+  
+  /* Centra el contenido horizontalmente */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.base-layout__container {
+  /* La caja que contiene TODO el contenido */
+  width: 100%;
+  max-width: var(--layout-max-width);
+  padding-left: var(--layout-padding-x-mobile);
+  padding-right: var(--layout-padding-x-mobile);
+  
+  /* Permite que el contenido interno decida su altura */
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+/* Responsive del contenedor */
+@media (min-width: 768px) {
+  .base-layout__container {
+    padding-left: var(--layout-padding-x-tablet);
+    padding-right: var(--layout-padding-x-tablet);
+  }
+}
+
+@media (min-width: 1024px) {
+  .base-layout__container {
+    padding-left: var(--layout-padding-x-desktop);
+    padding-right: var(--layout-padding-x-desktop);
+  }
+}

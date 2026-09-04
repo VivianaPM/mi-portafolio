@@ -1,37 +1,14 @@
 /* App.css */
 .app {
   min-height: 100vh;
-  background-color: var(--bg-primary); 
-  color: var(--text-primary); 
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
   transition: all 0.3s ease;
 }
 
-.app-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 40px;
-  background-color: var(--bg-primary); 
-  border-bottom: 1px solid var(--border-color); 
-}
-
-.app-header h1 {
-  color: var(--text-primary); 
-}
-
 .app-main {
-  padding: 40px;
   max-width: 1200px;
   margin: 0 auto;
-}
-
-/* src/App.css */
-.language-selector-wrapper {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  z-index: 9999;
-  /* ↑ Muy alto para estar siempre visible */
 }
 
 /* Ajuste para pantallas pequeñas */
