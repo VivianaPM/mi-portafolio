@@ -12,3 +12,5 @@ language:
   select: "Change language"
   spanish: "Spanish"
   english: "English"
+theme:
+  toggle: "Change theme"
