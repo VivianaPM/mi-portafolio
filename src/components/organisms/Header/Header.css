@@ -1,0 +1,51 @@
+.header {
+  display: flex;
+  justify-content: flex-start; /* Alinear contenido a la izquierda */
+  align-items: center;
+  padding: 1rem var(--layout-padding-x-mobile);
+  background-color: var(--primary-bg);
+  box-sizing: border-box;
+  /* Full-bleed: hacer que el header ocupe todo el ancho del viewport
+     aunque esté dentro del contenedor centrado */
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  width: 100vw;
+}
+
+.header__controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* Si no hay logo, ocultarlo para que los controles queden a la izquierda */
+.header__logo {
+  display: none;
+}
+
+.header__controls {
+  margin-left: auto; /* Empuja los controles al extremo derecho */
+}
+
+/* Ajustes responsive: en móviles se apilan y reducen espacios */
+@media (max-width: 480px) {
+  .header {
+    padding: 0.75rem var(--layout-padding-x-mobile);
+  }
+
+  .header__controls {
+    gap: 6px;
+    align-items: center;
+    flex-direction: row; /* seguir en fila, cambiar si prefieres columna */
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    padding-left: var(--layout-padding-x-tablet);
+    padding-right: var(--layout-padding-x-tablet);
+  }
+}

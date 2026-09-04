@@ -1,4 +1,4 @@
-@import './tokens.css';
+@import "./tokens.css";
 
 :root {
   /* Fondos */
@@ -53,6 +53,9 @@
   --nav-item-active-text: var(--color-red-500);
   --nav-item-active-bg: #f9b4abb1;
   --nav-drawer-hover: var(--color-red-500);
+
+  --language-selected-checkmark: var(--color-red-500);
+  --language-selected-bg: #f9b4ab53;
 }
 
 /* ==========================================
@@ -90,6 +93,15 @@
   --nav-item-active-text: var(--color-gray-100);
   --nav-item-active-bg: #f2af29af;
   --nav-drawer-hover: var(--color-yellow-500);
-  
+
   /* Los valores que no cambian NO se redeclaran (ej: --border-color, --card-bg, etc.) */
+
+  /* Ajustes adicionales para que componentes que usan --bg-secondary, --border-color
+     y --card-hover-bg se muestren correctamente en modo oscuro */
+  --bg-secondary: #1f1f1f;
+  --border-color: rgba(255, 255, 255, 0.06);
+  --card-hover-bg: rgba(255, 255, 255, 0.02);
+
+  --language-selected-checkmark: var(--color-green-500);
+  --language-selected-bg: #9ae19d56;
 }

@@ -15,4 +15,21 @@
   --shadow-dropdown: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
 
   /* Espaciado */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+
+  /* Tokens semánticos (los que usan los layouts) */
+  --layout-padding-x-mobile: 16px;
+  --layout-padding-x-tablet: 24px;
+  --layout-padding-x-desktop: 40px;
+  --layout-max-width: 1200px;
+
+  /* Gap entre componentes en layouts */
+  --layout-gap-main: var(--space-2xl); /* 48px - para vista principal */
+  --layout-gap-secondary: var(--space-lg); /* 24px - para vista secundaria */
 }
